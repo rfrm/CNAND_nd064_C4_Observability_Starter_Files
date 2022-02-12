@@ -2,7 +2,7 @@
 
 ## Verify the monitoring installation
 
-[pods](answer-img/01-pods.png)
+![pods](answer-img/01-pods.png)
 
 ## Setup the Jaeger and Prometheus source
 *TODO:* Expose Grafana to the internet and then setup Prometheus as a data source. Provide a screenshot of the home page after logging into Grafana.
