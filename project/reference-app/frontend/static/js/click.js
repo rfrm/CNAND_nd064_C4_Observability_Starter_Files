@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    console.log('Hello');
 
     // all custom jQuery will go here
     $("#firstbutton").click(function () {
