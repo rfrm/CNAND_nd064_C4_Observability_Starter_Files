@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ghcr.io/jasonsmithio/myfrontend:v1
+        image: rfrodriguez/observability-frontend
         ports:
         - containerPort: 8080
 ---
