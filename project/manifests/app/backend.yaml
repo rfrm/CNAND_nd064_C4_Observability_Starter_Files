@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ghcr.io/jasonsmithio/backend:v1
+        image: rfrodriguez/observability-backend:latest
         ports:
         - containerPort: 8080
 ---

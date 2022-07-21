@@ -1,9 +1,11 @@
 from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS
 
 import pymongo
 from flask_pymongo import PyMongo
 
 app = Flask(__name__)
+CORS(app)
 
 app.config["MONGO_DBNAME"] = "example-mongodb"
 app.config[
@@ -16,7 +18,6 @@ mongo = PyMongo(app)
 @app.route("/")
 def homepage():
     return "Hello World"
-
 
 @app.route("/api")
 def my_api():
