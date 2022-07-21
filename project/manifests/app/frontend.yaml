@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: rfrodriguez/observability-frontend
+        image: rfrodriguez/observability-frontend:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
 ---
@@ -27,5 +28,5 @@ spec:
     app: frontend
   ports:
     - port: 8080
-      targetPort: 8080
-  type: LoadBalancer
+      nodePort: 30001
+  type: NodePort

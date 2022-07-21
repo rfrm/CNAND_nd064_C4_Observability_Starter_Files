@@ -21,7 +21,7 @@ def homepage():
 @app.route("/api")
 def my_api():
     answer = "something"
-    return jsonify(repsonse=answer)
+    return jsonify(response=answer)
 
 
 @app.route("/star", methods=["POST"])
