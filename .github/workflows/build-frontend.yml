@@ -25,5 +25,5 @@ jobs:
           context: ./project/reference-app/frontend
           file : ./project/reference-app/frontend/Dockerfile
           platforms: linux/amd64
-          tags: rfrodriguez/observability-frontend:latest
+          tags: rfrodriguez/observability-frontend:0.0.1
 
