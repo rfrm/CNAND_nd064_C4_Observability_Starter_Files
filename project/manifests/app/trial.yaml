@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: trial
-        image: ghcr.io/jasonsmithio/trial:v1
+        image: rfrodriguez/observability-trial:latest
         ports:
         - containerPort: 8080
 ---
